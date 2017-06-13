@@ -37,8 +37,16 @@ P.links {
     position: absolute;
     top: 50%;
     right: 10%;
-    letter-spacing: 1em;
+    letter-spacing: 0.25em;
+    font-size:60px;
 }
+
+@media only screen and (max-width: 768px) {
+  P.links {
+    font-size: 100px;
+  }
+}
+
 
 </style>
 
@@ -50,10 +58,10 @@ P.links {
 <body>
 
 <P class="links">
-<a href="https://www.youtube.com" class="fa fa-youtube" style="font-size:60px;color:LightGrey ;"><span class="label"></span></a>
-<a href="https://www.facebook.com" class="fa fa-facebook" style="font-size:60px;color:LightGrey ;"><span class="label"></span></a>
-<a href="https://www.instagram.com" class="fa fa-instagram" style="font-size:60px;color:LightGrey ;"><span class="label"></span></a>
-<a href="https://www.soundcloud.com" class="fa fa-soundcloud" style="font-size:60px;color:LightGrey ;"><span class="label"></span></a>
+<a href="https://www.youtube.com" class="fa fa-youtube" style="color:LightGrey ;"><span class="label"></span></a>
+<a href="https://www.facebook.com" class="fa fa-facebook" style="color:LightGrey ;"><span class="label"></span></a>
+<a href="https://www.instagram.com" class="fa fa-instagram" style="color:LightGrey ;"><span class="label"></span></a>
+<a href="https://www.soundcloud.com" class="fa fa-soundcloud" style="color:LightGrey ;"><span class="label"></span></a>
 </P>
 </body>
 </html>
